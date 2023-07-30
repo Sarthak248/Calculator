@@ -1,0 +1,111 @@
+body{
+  background-color: #000000;
+}
+.header{
+  margin-top: 2%;
+  text-align: center;
+  color: #e6ffcc;
+  font-family: "Oswald", serif;
+  font-size: 34px;
+}
+.calculator {
+  background-color: #E1E1E1;
+  border-radius: 5px;
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.display {
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-family: "Oswald", serif;
+}
+
+
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin-bottom: 10px;
+}
+
+.keys button {
+  background-color: #FFF;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.keys button:hover {
+  opacity: 1;
+}
+
+
+
+.operator {
+  background-color: #3498DB;
+  color: #000000;
+  opacity: 0.8;
+}
+
+.operator:hover {
+  opacity: 1;
+}
+
+
+
+.trig {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-bottom: 10px;
+}
+
+.trig button {
+  background-color: #00cc00;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.trig button:hover {
+  opacity: 1;
+}
+
+
+
+.sci {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-bottom: 10px;
+}
+
+.sci button {
+  background-color: #0086b3;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.sci button:hover {
+  opacity: 1;
+}
